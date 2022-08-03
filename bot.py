@@ -36,11 +36,11 @@ def list(update, context):
 
 def contact(update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(
-        "Contact", url="telegram.me/phantom2152")], ]
+        "Support Group", url="telegram.me/Movies_thunder_chat_group")], ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
 
-    update.message.reply_text('Contact The Maker:', reply_markup=reply_markup)
+    update.message.reply_text('Join my Support Group', reply_markup=reply_markup)
 
 
 def error_handler(update, context):
